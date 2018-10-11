@@ -20,6 +20,14 @@ namespace WindowsFormsApplication1
         private void label_click(object sender, EventArgs e)
         {
             label1.Text = "Hello World";
+            if (button1.Text == "Clicked")
+            {
+                button1.Text = "Unclicked";
+            }
+            else
+            {
+                button1.Text = "Clicked";
+            }
         }
     }
 }
